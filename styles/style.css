@@ -75,7 +75,6 @@
 .description {
   display: flex;
   align-items: center;
-  
 }
 
 .description__two_columns {
@@ -84,7 +83,6 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 100px auto;
-  
 }
 
 .description__two_columns_brief {
@@ -98,14 +96,11 @@
 .description__two_columns_paragraph {
   font-size: 24px;
   min-width: 784px;
-width: 80%;
+  width: 80%;
   line-height: 34px;
   font-style: normal;
-  margin-left:60px;
-
-  
+  margin-left: 60px;
 }
-
 
 .digits {
   display: flex;
@@ -181,7 +176,6 @@ width: 80%;
   margin: 0 auto;
   text-align: center;
   z-index: 1;
-  
 }
 
 .feinman__subtitle {
@@ -294,30 +288,75 @@ width: 80%;
   background-color: #1f1f1f;
   border: 1px solid red;
   
+}
+
+.footer__columns {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 40px;
-  justify-content: center;
+  flex-basis: 711px;
+  border: 1px solid red;
+  width: 90%;
+  min-height: 350px;
+  justify-content: space-between;
   position: relative;
-  height: 200px;
 }
 
 .footer__logo {
   position: absolute;
+  border: 1px solid red;
   top: 30px;
   left: 64px;
-}
-.footer__columns {
-  display: flex;
-  border: 1px solid red;
-  width: 90%;
 }
 
 .footer__author {
   position: absolute;
   bottom: 18px;
   left: 64px;
-  color:#f2f2f2;
-  
-  
+  color: #f2f2f2;
+  border: 1px solid red;
+}
+
+.footer__column-heading {
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top:30px;
+}
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__social-icon {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+}
+
+.content-social {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.social_icons-indent {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
 }
