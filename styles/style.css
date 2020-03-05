@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -17,6 +26,7 @@
   background-color: #f2f2f2;
   position: relative;
   display: flex;
+  overflow: hidden;
 }
 
 .logo_place_header {
@@ -61,8 +71,14 @@
   top: 64px;
   right: 0px;
   background-color: #2f80ed;
+  transform: rotate(-15deg);
 }
-
+.header__square-pic_rotate {
+  animation-name: rotation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 .header__main-illustration {
   position: absolute;
   right: 0px;
@@ -294,6 +310,13 @@
   background-image: url(../images/triangle.svg);
   background-size: contain;
   z-index: -1;
+}
+
+.kaufman__triangle_rotate {
+  animation-name: rotation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .footer {
