@@ -63,9 +63,9 @@
   color: #2f80ed;
 }
 
-.header__link:hover {
+a:hover {
   opacity: 50%;
-  transition: 1s;
+  transition: 1s; 
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -198,33 +198,6 @@
   height: 316px;
 }
 
-.digits {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 100px;
-}
-
-.section-title {
-  display: flex;
-  width: 60%;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  margin: 0 auto;
-  justify-content: center;
-}
-
-.section-subtitle {
-  display: flex;
-  justify-content: center;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0 auto;
-  padding-top: 20px;
-}
-
 .oakley {
   position:relative;
   background-color: #f2f2f2;
@@ -303,10 +276,7 @@
   font-weight: normal;
 }
 
-.feinman__link:hover {
-  opacity: 50%;
-  transition: 1s;
-}
+
 
 .feinman__pic {
   position: absolute;
@@ -315,6 +285,34 @@
   width: 867px;
   height: 637px;
   z-index: -1;
+}
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.section-title {
+  display: flex;
+  width: 60%;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.section-subtitle {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .kaufman {
@@ -454,10 +452,6 @@
   font-weight: normal;
 }
 
-.footer__column-link:hover {
-  opacity: 50%;
-  transition: 1s;
-}
 
 .footer__column-links {
   display: flex;
