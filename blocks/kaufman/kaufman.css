@@ -2,10 +2,9 @@
 @import url(./__triangle/_rotation/kaufman__triangle_rotation.css);
 @import url(../rotation/rotation.css);
 
-
 .kaufman {
-    background-color: #1f1f1f;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-  }
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}

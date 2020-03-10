@@ -1,8 +1,8 @@
 .feinman__pic {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 867px;
-    height: 637px;
-    z-index: -1;
-  }
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 867px;
+  height: 637px;
+  z-index: -1;
+}

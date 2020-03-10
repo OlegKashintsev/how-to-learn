@@ -5,9 +5,9 @@
 @import url(./_oakley/two-columns_oakley.css);
 
 .two-columns {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 100px;
-  }
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 100px;
+}

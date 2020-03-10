@@ -5,8 +5,8 @@
 @import url(./__subtitle/feinman__subtitle.css);
 
 .feinman {
-    background-color: #f2f2f2;
-    position: relative;
-    height: 790px;
-    z-index: 1;
-  }
+  background-color: #f2f2f2;
+  position: relative;
+  height: 790px;
+  z-index: 1;
+}
