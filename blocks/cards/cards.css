@@ -1,0 +1,17 @@
+@import url(./__image/_clipped/cards__image_clipped.css);
+@import url(./__image/cards__image.css);
+@import url(./__item/cards__item.css);
+@import url(./__title/cards__title.css);
+@import url(./__description/cards__description.css);
+
+
+
+.cards {
+    display: grid;
+    margin: 0 auto;
+    width: 920px;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-row-gap: 60px;
+    grid-column-gap: 100px;
+    padding-top: 60px;
+  }

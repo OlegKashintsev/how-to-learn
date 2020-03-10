@@ -1,0 +1,11 @@
+.section-title_theme_dark {
+    line-height: 69px;
+    font-size: 60px;
+    font-style: bold;
+    color: white;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+  }
