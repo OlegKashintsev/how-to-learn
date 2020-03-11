@@ -1,5 +1,7 @@
 .cards__image {
   width: 160px;
   height: 160px;
-  margin: 0px 40px 43px;
+  border-radius: 80px;
+  margin-bottom: 43px; /*отступ по брифу*/
+  /*отцентрировано по флексу через .cards__item*/
 }
