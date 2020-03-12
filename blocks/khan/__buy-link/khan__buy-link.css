@@ -5,9 +5,12 @@
   text-decoration: none;
   color: #2f80ed;
   height: 50px;
+  opacity: 100%;
+  transition-property: opacity;
+  transition-timing-function: linear;
+  transition-duration: 1s;
 }
 
 .khan__buy-link:hover {
   opacity: 50%;
-  transition: 1s;
 }

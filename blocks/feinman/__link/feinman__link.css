@@ -7,9 +7,12 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  opacity: 100%;
+  transition-property: opacity;
+  transition-timing-function: linear;
+  transition-duration: 1s;
 }
 
 .feinman__link:hover {
   opacity: 50%;
-  transition: 1s;
 }
